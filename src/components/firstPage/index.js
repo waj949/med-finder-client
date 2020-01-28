@@ -8,6 +8,7 @@ export default function index() {
       <NavbarPage />
       <SearchBar />
       <SimpleMap />
+      {/* commented for less calls */}
     </div>
   );
 }

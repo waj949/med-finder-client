@@ -12,14 +12,25 @@ class SimpleMap extends Component {
     zoom: 11
   };
 
+  async componentDidMount() {
+    await navigator.geolocation.getCurrentPosition(position => {
+      this.setState({
+        center: {
+          lat: position.coords.latitude,
+          lng: position.coords.longitude
+        }
+      });
+    });
+  }
+
   render() {
     return (
       // Important! Always set the container height explicitly
       <div style={{ height: "70vh", width: "80%", margin: "auto" }}>
         <GoogleMapReact
           bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_MAP_API_KEY }}
-          defaultCenter={this.props.center}
-          defaultZoom={this.props.zoom}
+          defaultCenter={this.state?.center || this.props.center}
+          defaultZoom={this.state?.zoom || this.props.zoom}
         >
           <AnyReactComponent lat={59.955413} lng={30.337844} text="My Marker" />
         </GoogleMapReact>
