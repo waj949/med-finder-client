@@ -1,13 +1,6 @@
 import React, { Component } from "react";
 import GoogleMapReact from "google-map-react";
 
-const dotenv = require("dotenv");
-
-// const envFound = dotenv.config();
-// if (!envFound) {
-//   throw new Error("⚠️  Couldn't find .env file  ⚠️");
-// }
-
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 class SimpleMap extends Component {
