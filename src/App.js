@@ -1,7 +1,16 @@
-import React from "react";
-
-function App() {
-  return <h1> this shit works 😇</h1>;
+import React, { Component } from "react";
+import NavbarPage from "./components/navbarPage";
+import ButtonPage from "./components/button";
+import SearchBar from "./components/searchBar";
+import SimpleMap from "./components/mapTest";
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <NavbarPage />
+        <SearchBar />
+        <SimpleMap />
+      </div>
+    );
+  }
 }
-
-export default App;
