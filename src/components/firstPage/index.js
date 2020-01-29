@@ -1,13 +1,15 @@
 import React from "react";
 import NavbarPage from "./navbarPage";
 import SearchBar from "./searchBar";
-import SimpleMap from "./mapTest";
+// import SimpleMap from "./mapTest";
+import Map from "./map";
 export default function index() {
   return (
     <div>
       <NavbarPage />
       <SearchBar />
-      <SimpleMap />
+      {/* <SimpleMap /> */}
+      <Map />
       {/* commented for less calls */}
     </div>
   );

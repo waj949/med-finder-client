@@ -8,7 +8,9 @@ import {
   InfoWindow
 } from "react-google-maps";
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+//////////////////////////// my work
+
+// const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 // class SimpleMap extends Component {
 //   async componentDidMount() {
@@ -21,6 +23,32 @@ const AnyReactComponent = ({ text }) => <div>{text}</div>;
 //         zoom: 11
 //       });
 //     });
+
+// // Important! Always set the container height explicitly
+// this.state?.center && this.state?.zoom ? (
+//   <div style={{ height: "70vh", width: "80%", margin: "auto" }}>
+//     <GoogleMapReact
+//       bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_MAP_API_KEY }}
+//       defaultCenter={this.state.center}
+//       defaultZoom={this.state.zoom}
+//     >
+//       <AnyReactComponent
+//         lat={this.state.center.lat}
+//         lng={this.state.center.lng}
+//         text="where you are"
+//       />
+//     </GoogleMapReact>
+//   </div>
+// ) : (
+//   <h1 style={{ width: "80%", margin: "auto 40%" }}>
+//     we can't find it
+//     <span role="img" aria-label="cry">
+//       😢
+//     </span>
+//   </h1>
+// )
+
+//////////////////////////// not me i swear
 
 // To use the Google Maps JavaScript API, you must register your app project on the Google API Console and get a Google API key which you can add to your app
 
@@ -94,29 +122,6 @@ class MarkerWithInfoWindow extends Component {
     const { location } = this.props;
 
     return (
-      // // Important! Always set the container height explicitly
-      // this.state?.center && this.state?.zoom ? (
-      //   <div style={{ height: "70vh", width: "80%", margin: "auto" }}>
-      //     <GoogleMapReact
-      //       bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_MAP_API_KEY }}
-      //       defaultCenter={this.state.center}
-      //       defaultZoom={this.state.zoom}
-      //     >
-      //       <AnyReactComponent
-      //         lat={this.state.center.lat}
-      //         lng={this.state.center.lng}
-      //         text="where you are"
-      //       />
-      //     </GoogleMapReact>
-      //   </div>
-      // ) : (
-      //   <h1 style={{ width: "80%", margin: "auto 40%" }}>
-      //     we can't find it
-      //     <span role="img" aria-label="cry">
-      //       😢
-      //     </span>
-      //   </h1>
-      // )
       <Marker
         onClick={this.toggle}
         position={location}
