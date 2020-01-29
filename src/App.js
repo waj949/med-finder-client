@@ -1,7 +1,11 @@
-import React from "react";
-
-function App() {
-  return <h1> this shit works 😇</h1>;
+import React, { Component } from "react";
+import FirstPage from "./components/firstPage";
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <FirstPage />
+      </div>
+    );
+  }
 }
-
-export default App;
