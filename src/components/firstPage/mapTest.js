@@ -4,21 +4,14 @@ import GoogleMapReact from "google-map-react";
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 class SimpleMap extends Component {
-  static defaultProps = {
-    center: {
-      lat: 59.95,
-      lng: 30.33
-    },
-    zoom: 11
-  };
-
   async componentDidMount() {
     await navigator.geolocation.getCurrentPosition(position => {
       this.setState({
         center: {
           lat: position.coords.latitude,
           lng: position.coords.longitude
-        }
+        },
+        zoom: 11
       });
     });
   }
@@ -26,15 +19,28 @@ class SimpleMap extends Component {
   render() {
     return (
       // Important! Always set the container height explicitly
-      <div style={{ height: "70vh", width: "80%", margin: "auto" }}>
-        <GoogleMapReact
-          bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_MAP_API_KEY }}
-          defaultCenter={this.state?.center || this.props.center}
-          defaultZoom={this.state?.zoom || this.props.zoom}
-        >
-          <AnyReactComponent lat={59.955413} lng={30.337844} text="My Marker" />
-        </GoogleMapReact>
-      </div>
+      this.state?.center && this.state?.zoom ? (
+        <div style={{ height: "70vh", width: "80%", margin: "auto" }}>
+          <GoogleMapReact
+            bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_MAP_API_KEY }}
+            defaultCenter={this.state.center}
+            defaultZoom={this.state.zoom}
+          >
+            <AnyReactComponent
+              lat={this.state.center.lat}
+              lng={this.state.center.lng}
+              text="where you are"
+            />
+          </GoogleMapReact>
+        </div>
+      ) : (
+        <h1 style={{ width: "80%", margin: "auto 40%" }}>
+          we can't find it
+          <span role="img" aria-label="cry">
+            😢
+          </span>
+        </h1>
+      )
     );
   }
 }
