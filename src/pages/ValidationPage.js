@@ -101,7 +101,7 @@ class ValidationPage extends Component {
             <MDBRow>
               <MDBCol md='4' className='mb-3'>
                 <label
-                  htmlFor='defaultFormRegisterPasswordEx4'
+                  htmlFor='defaultFormRegisterEx4'
                   className='grey-text'
                 >
                   City
@@ -110,7 +110,7 @@ class ValidationPage extends Component {
                   value={city}
                   onChange={this.changeHandler}
                   type='text'
-                  id='defaultFormRegisterPasswordEx4'
+                  id='defaultFormRegisterEx4'
                   className='form-control'
                   name='city'
                   placeholder='City'
@@ -123,7 +123,7 @@ class ValidationPage extends Component {
               </MDBCol>
               <MDBCol md='4' className='mb-3'>
                 <label
-                  htmlFor='defaultFormRegisterPasswordEx4'
+                  htmlFor='defaultFormRegisterEx4'
                   className='grey-text'
                 >
                   State
@@ -132,7 +132,7 @@ class ValidationPage extends Component {
                   value={state}
                   onChange={this.changeHandler}
                   type='text'
-                  id='defaultFormRegisterPasswordEx4'
+                  id='defaultFormRegisterEx4'
                   className='form-control'
                   name='state'
                   placeholder='State'
@@ -145,7 +145,7 @@ class ValidationPage extends Component {
               </MDBCol>
               <MDBCol md='4' className='mb-3'>
                 <label
-                  htmlFor='defaultFormRegisterPasswordEx4'
+                  htmlFor='defaultFormRegisterEx4'
                   className='grey-text'
                 >
                   Zip
@@ -154,7 +154,7 @@ class ValidationPage extends Component {
                   value={zip}
                   onChange={this.changeHandler}
                   type='text'
-                  id='defaultFormRegisterPasswordEx4'
+                  id='defaultFormRegisterEx4'
                   className='form-control'
                   name='zip'
                   placeholder='Zip'
@@ -231,7 +231,7 @@ class ValidationPage extends Component {
                   value={city}
                   onChange={this.changeHandler}
                   type='text'
-                  id='browserFormRegisterPasswordEx4'
+                  id='browserFormRegisterEx4'
                   name='city'
                   label='City'
                   required
@@ -242,7 +242,7 @@ class ValidationPage extends Component {
                   value={state}
                   onChange={this.changeHandler}
                   type='text'
-                  id='browserFormRegisterPasswordEx4'
+                  id='browserFormRegisterEx4'
                   name='state'
                   label='State'
                   required
@@ -253,7 +253,7 @@ class ValidationPage extends Component {
                   value={zip}
                   onChange={this.changeHandler}
                   type='text'
-                  id='browserFormRegisterPasswordEx4'
+                  id='browserFormRegisterEx4'
                   name='zip'
                   label='Zip'
                   required
@@ -450,7 +450,7 @@ class ValidationPage extends Component {
               <MDBRow>
                 <div className='col-md-4 mb-3'>
                   <label
-                    htmlFor='defaultFormRegisterPasswordEx4'
+                    htmlFor='defaultFormRegisterEx4'
                     className='grey-text'
                   >
                     City
@@ -459,7 +459,7 @@ class ValidationPage extends Component {
                     value={city}
                     onChange={this.changeHandler}
                     type='text'
-                    id='defaultFormRegisterPasswordEx4'
+                    id='defaultFormRegisterEx4'
                     className='form-control'
                     name='city'
                     placeholder='City'
@@ -474,7 +474,7 @@ class ValidationPage extends Component {
                 </div>
                 <div className='col-md-4 mb-3'>
                   <label
-                    htmlFor='defaultFormRegisterPasswordEx4'
+                    htmlFor='defaultFormRegisterEx4'
                     className='grey-text'
                   >
                     State
@@ -483,7 +483,7 @@ class ValidationPage extends Component {
                     value={state}
                     onChange={this.changeHandler}
                     type='text'
-                    id='defaultFormRegisterPasswordEx4'
+                    id='defaultFormRegisterEx4'
                     className='form-control'
                     name='state'
                     placeholder='State'
@@ -498,7 +498,7 @@ class ValidationPage extends Component {
                 </div>
                 <div className='col-md-4 mb-3'>
                   <label
-                    htmlFor='defaultFormRegisterPasswordEx4'
+                    htmlFor='defaultFormRegisterEx4'
                     className='grey-text'
                   >
                     Zip
@@ -507,7 +507,7 @@ class ValidationPage extends Component {
                     value={zip}
                     onChange={this.changeHandler}
                     type='text'
-                    id='defaultFormRegisterPasswordEx4'
+                    id='defaultFormRegisterEx4'
                     className='form-control'
                     name='zip'
                     placeholder='Zip'

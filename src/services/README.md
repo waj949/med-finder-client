@@ -6,10 +6,10 @@ You might be tempted to make a `global function` that sends all your `requests` 
 Every server file should follow the pattern below:<br>
 ```
 import axios from "axios";
-    export default {
-        example: async () => {
-            let res = await axios.get(`/api/example`);
-            return res.data || [];
+export default {
+    example: async () => {
+        let res = await axios.get(`/api/example`);
+        return res.data || [];
     }
 };
 ```

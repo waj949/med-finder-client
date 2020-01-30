@@ -1,14 +1,16 @@
 import React from "react";
 import NavbarPage from "./navbarPage";
 import SearchBar from "./searchBar";
-import SimpleMap from "./mapTest";
+import ReactGoogleMaps from "./mapTest";
 export default function index() {
   return (
     <div>
       <NavbarPage />
       <SearchBar />
-      <SimpleMap />
+      <ReactGoogleMaps />
       {/* commented for less calls */}
     </div>
   );
 }
+
+
