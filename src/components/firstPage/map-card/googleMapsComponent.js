@@ -1,8 +1,7 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { withScriptjs, withGoogleMap, GoogleMap } from "react-google-maps";
 import MarkerList from "./markerList";
-const defaultZoom = 11;
-const defaultCenter = { lat: 37.431489, lng: -122.163719 };
+
 const locations = [
   {
     lat: 37.431489,
@@ -40,10 +39,21 @@ const locations = [
 
 const GoogleMapsComponent = withScriptjs(
   withGoogleMap(props => {
-    return (
-      <GoogleMap defaultZoom={defaultZoom} defaultCenter={defaultCenter}>
+    const [location, setLocation] = useState();
+    useEffect(() => {
+      navigator.geolocation.getCurrentPosition(position => {
+        setLocation({
+          lat: position.coords.latitude, //location
+          lng: position.coords.longitude
+        });
+      });
+    });
+    return location ? (
+      <GoogleMap defaultZoom={11} defaultCenter={location}>
         {<MarkerList locations={locations} />}
       </GoogleMap>
+    ) : (
+      <h1 style={{ width: "80%", margin: "auto 40%" }}>we can't find it</h1>
     );
   })
 );
