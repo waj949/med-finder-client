@@ -4,7 +4,7 @@ import { MDBBtn } from "mdbreact";
 const ButtonPage = ({ text }) => {
   return (
     <Fragment>
-      <MDBBtn gradient="aqua">{text}</MDBBtn>
+      <MDBBtn gradient="aqua"> {text} </MDBBtn>
     </Fragment>
   );
 };

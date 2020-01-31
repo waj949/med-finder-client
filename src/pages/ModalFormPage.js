@@ -61,10 +61,10 @@ class ModalFormPage extends Component {
                   success='right'
                 />
                 <MDBInput
-                  label='Type your password'
+                  label='Type your '
                   icon='lock'
                   group
-                  type='password'
+                  type=''
                   validate
                 />
               </form>
@@ -108,10 +108,10 @@ class ModalFormPage extends Component {
                   success='right'
                 />
                 <MDBInput
-                  label='Your password'
+                  label='Your '
                   icon='lock'
                   group
-                  type='password'
+                  type=''
                   validate
                 />
               </form>
@@ -235,9 +235,9 @@ class ModalFormPage extends Component {
               <h5 className='mt-1 mb-2'>Maria Doe</h5>
               <form className='mx-3 grey-text'>
                 <MDBInput
-                  label='Enter password'
+                  label='Enter '
                   group
-                  type='password'
+                  type=''
                   validate
                 />
               </form>
