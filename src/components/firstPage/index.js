@@ -7,7 +7,6 @@ export default function index() {
     <div>
       <NavbarPage />
       <SearchBar />
-
       <Map />
       {/* commented for less calls */}
     </div>

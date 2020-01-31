@@ -48,12 +48,20 @@ const GoogleMapsComponent = withScriptjs(
         });
       });
     });
-    return location ? (
-      <GoogleMap defaultZoom={11} defaultCenter={location}>
-        {<MarkerList locations={locations} />}
-      </GoogleMap>
-    ) : (
-      <h1 style={{ width: "80%", margin: "auto 40%" }}>we can't find it</h1>
+
+    const button = () => {};
+
+    return (
+      <div>
+        {location ? (
+          <GoogleMap defaultZoom={11} defaultCenter={location}>
+            {<MarkerList locations={locations} />}
+          </GoogleMap>
+        ) : (
+          <h1 style={{ width: "80%", margin: "auto 40%" }}>we can't find it</h1>
+        )}
+        <button onClick={button.bind(this)}> what ever</button>
+      </div>
     );
   })
 );
