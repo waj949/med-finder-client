@@ -1,7 +1,7 @@
 import React from "react";
 import { MDBCol, MDBFormInline, MDBBtn } from "mdbreact";
 
-const SearchBar = () => {
+const SearchBar = ({ handleSearchBar, handleSearchSubmit }) => {
   return (
     <MDBCol md="12">
       <MDBFormInline
@@ -13,6 +13,9 @@ const SearchBar = () => {
           type="text"
           placeholder="Search"
           aria-label="Search"
+          onChange={e => {
+            handleSearchBar(e.target.value);
+          }}
         />
         <MDBBtn
           gradient="aqua"
@@ -20,6 +23,9 @@ const SearchBar = () => {
           size="sm"
           type="submit"
           className="mr-auto"
+          onClick={e => {
+            handleSearchSubmit(e);
+          }}
         >
           Search
         </MDBBtn>
