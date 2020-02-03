@@ -218,4 +218,4 @@ const BadgePage = props => {
   );
 };
 
-export default BadgePage;
+export default  BadgePage;

@@ -117,4 +117,4 @@ class TabsPage extends Component {
   }
 }
 
-export default TabsPage;
+export default  TabsPage;

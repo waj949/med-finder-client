@@ -261,4 +261,4 @@ const CardsPage = () => {
   );
 };
 
-export default CardsPage;
+export default  CardsPage;

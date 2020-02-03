@@ -2,7 +2,7 @@ import React from "react";
 import { Card, CardHeader, CardBody } from "reactstrap";
 import GoogleMapsComponent from "./googleMapsComponent";
 
-export default function Index({ searchResult }) {
+export default  function Index({ searchResult }) {
   return (
     <div
       className="animated fadeIn"

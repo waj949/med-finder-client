@@ -91,4 +91,4 @@ const FaPage = props => {
   );
 };
 
-export default FaPage;
+export default  FaPage;

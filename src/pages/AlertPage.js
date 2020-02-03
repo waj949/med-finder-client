@@ -140,4 +140,4 @@ const AlertPage = () => {
   );
 };
 
-export default AlertPage;
+export default  AlertPage;

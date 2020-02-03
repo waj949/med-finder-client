@@ -627,4 +627,4 @@ class InputPage extends Component {
   }
 }
 
-export default InputPage;
+export default  InputPage;

@@ -1,6 +1,6 @@
 import axios from 'axios'; 
 
-export default {
+export default  {
     example: async () => {
         console.log("here")
         let res = await axios.get(`/api/pharmacy`);
