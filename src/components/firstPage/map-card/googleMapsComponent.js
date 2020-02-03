@@ -34,7 +34,15 @@ const locations = [
     draggable: false,
     title: "Pharmacy Ghazela"
     // www: 'https://www.facebook.com/'
-  }
+  },
+  {
+    "lat": 38.8091524,
+    "lng": -9.1166554,
+    "label": "K",
+    "draggable": false,
+    "title": "Pharmacy Sagent Pharmaceuticals, Inc.",
+    //"www": "https://www.Pharmacy-Sagen.com/"
+}
 ];
 
 const GoogleMapsComponent = withScriptjs(
