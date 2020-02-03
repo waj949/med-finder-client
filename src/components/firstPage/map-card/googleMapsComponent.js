@@ -2,10 +2,6 @@ import React from "react";
 import { withScriptjs, withGoogleMap, GoogleMap } from "react-google-maps";
 import MarkerList from "./markerList";
 export class GoogleMapsComponent extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
     navigator.geolocation.getCurrentPosition(position => {
       this.setState({
@@ -42,6 +38,6 @@ export class GoogleMapsComponent extends React.Component {
   }
 }
 
-export default GoogleMapsComponent = withScriptjs(
+export default  GoogleMapsComponent = withScriptjs(
   withGoogleMap(GoogleMapsComponent)
 );

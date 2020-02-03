@@ -122,4 +122,4 @@ class CollapsePage extends Component {
   }
 }
 
-export default CollapsePage;
+export default  CollapsePage;

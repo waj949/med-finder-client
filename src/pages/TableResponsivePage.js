@@ -374,4 +374,4 @@ const TableResponsivePage = props => {
   );
 };
 
-export default TableResponsivePage;
+export default  TableResponsivePage;

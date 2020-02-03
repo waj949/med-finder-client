@@ -37,4 +37,4 @@ class NavbarPage extends Component {
   }
 }
 
-export default NavbarPage;
+export default  NavbarPage;

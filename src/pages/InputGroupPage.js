@@ -772,4 +772,4 @@ class InputGroupPage extends React.Component {
   }
 }
 
-export default InputGroupPage;
+export default  InputGroupPage;

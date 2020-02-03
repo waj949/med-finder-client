@@ -191,4 +191,4 @@ const JumbotronPage = () => {
   );
 };
 
-export default JumbotronPage;
+export default  JumbotronPage;

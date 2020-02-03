@@ -197,4 +197,4 @@ const ChartsPage = () => {
   );
 };
 
-export default ChartsPage;
+export default  ChartsPage;

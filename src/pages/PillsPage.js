@@ -83,4 +83,4 @@ class PillsPage extends Component {
   }
 }
 
-export default PillsPage;
+export default  PillsPage;

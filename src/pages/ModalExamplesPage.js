@@ -469,4 +469,4 @@ class ModalExamplesPage extends Component {
   }
 }
 
-export default ModalExamplesPage;
+export default  ModalExamplesPage;

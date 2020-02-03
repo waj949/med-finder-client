@@ -730,4 +730,4 @@ const PanelPage = () => {
   );
 };
 
-export default PanelPage;
+export default  PanelPage;

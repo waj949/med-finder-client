@@ -94,4 +94,4 @@ const MasksPage = () => {
   );
 };
 
-export default MasksPage;
+export default  MasksPage;

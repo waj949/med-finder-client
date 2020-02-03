@@ -532,4 +532,4 @@ class ValidationPage extends Component {
   }
 }
 
-export default ValidationPage;
+export default  ValidationPage;

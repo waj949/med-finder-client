@@ -34,4 +34,4 @@ const SearchBar = ({ handleSearchBar, handleSearchSubmit }) => {
   );
 };
 
-export default SearchBar;
+export default  SearchBar;

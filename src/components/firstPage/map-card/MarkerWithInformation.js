@@ -38,4 +38,4 @@ class MarkerWithInfoWindow extends Component {
   }
 }
 
-export default MarkerWithInfoWindow;
+export default  MarkerWithInfoWindow;

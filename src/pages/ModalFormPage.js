@@ -307,4 +307,4 @@ class ModalFormPage extends Component {
   }
 }
 
-export default ModalFormPage;
+export default  ModalFormPage;
