@@ -49,4 +49,4 @@ const ComponentsNavPage = () => {
   );
 };
 
-export default ComponentsNavPage;
+export default  ComponentsNavPage;

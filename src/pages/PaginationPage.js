@@ -402,4 +402,4 @@ const PaginationPage = () => {
   );
 };
 
-export default PaginationPage;
+export default  PaginationPage;

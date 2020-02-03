@@ -805,4 +805,4 @@ const DatatablePage = () => {
   );
 };
 
-export default DatatablePage;
+export default  DatatablePage;

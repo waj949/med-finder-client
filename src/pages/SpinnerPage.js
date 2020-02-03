@@ -86,4 +86,4 @@ const SpinnerPage = () => {
   );
 };
 
-export default SpinnerPage;
+export default  SpinnerPage;

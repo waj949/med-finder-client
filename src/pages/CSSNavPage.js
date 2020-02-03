@@ -41,4 +41,4 @@ const CSSPage = () => {
   );
 };
 
-export default CSSPage;
+export default  CSSPage;

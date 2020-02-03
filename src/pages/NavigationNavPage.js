@@ -42,4 +42,4 @@ const NavigationNavPage = () => {
   );
 };
 
-export default NavigationNavPage;
+export default  NavigationNavPage;

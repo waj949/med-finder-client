@@ -10,4 +10,4 @@ const ButtonPage = ({ text }) => {
   );
 };
 
-export default ButtonPage;
+export default  ButtonPage;

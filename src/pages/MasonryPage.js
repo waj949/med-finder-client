@@ -100,4 +100,4 @@ class MasonryPage extends React.Component {
   }
 }
 
-export default MasonryPage;
+export default  MasonryPage;

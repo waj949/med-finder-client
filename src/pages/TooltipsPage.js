@@ -98,4 +98,4 @@ const TooltipsPage = () => {
   );
 };
 
-export default TooltipsPage;
+export default  TooltipsPage;

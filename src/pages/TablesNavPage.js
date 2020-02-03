@@ -34,4 +34,4 @@ const TablesNavPage = () => {
   );
 }
 
-export default TablesNavPage;
+export default  TablesNavPage;

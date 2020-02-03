@@ -162,4 +162,4 @@ const NotificationPage = () => {
   );
 };
 
-export default NotificationPage;
+export default  NotificationPage;
