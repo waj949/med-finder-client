@@ -97,4 +97,4 @@ const TableScrollPage = props => {
   );
 };
 
-export default TableScrollPage;
+export default  TableScrollPage;

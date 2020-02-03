@@ -551,4 +551,4 @@ class AnimationPage extends React.Component {
     );
   }
 }
-export default AnimationPage;
+export default  AnimationPage;

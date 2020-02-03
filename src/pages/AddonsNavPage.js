@@ -43,4 +43,4 @@ const AddonsNavPage = () => {
   );
 };
 
-export default AddonsNavPage;
+export default  AddonsNavPage;

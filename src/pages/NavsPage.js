@@ -403,4 +403,4 @@ class NavsPage extends Component {
   }
 }
 
-export default NavsPage;
+export default  NavsPage;

@@ -52,4 +52,4 @@ const FooterPage = () => {
   );
 };
 
-export default FooterPage;
+export default  FooterPage;

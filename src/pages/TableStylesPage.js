@@ -254,4 +254,4 @@ const TableStylesPage = props => {
   );
 };
 
-export default TableStylesPage;
+export default  TableStylesPage;

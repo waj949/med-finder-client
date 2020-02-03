@@ -32,4 +32,4 @@ const ModalsNavPage = () => {
   );
 }
 
-export default ModalsNavPage;
+export default  ModalsNavPage;

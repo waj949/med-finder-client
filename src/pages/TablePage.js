@@ -369,4 +369,4 @@ const TablePage = props => {
   );
 };
 
-export default TablePage;
+export default  TablePage;

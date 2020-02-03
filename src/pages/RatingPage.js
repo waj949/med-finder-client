@@ -73,4 +73,4 @@ const RatingPage = () => {
   );
 };
 
-export default RatingPage;
+export default  RatingPage;

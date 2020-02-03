@@ -34,4 +34,4 @@ const ScrollBarPage = () => {
   );
 };
 
-export default ScrollBarPage;
+export default  ScrollBarPage;

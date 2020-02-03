@@ -14,4 +14,4 @@ const IframePage = () => {
   );
 };
 
-export default IframePage;
+export default  IframePage;

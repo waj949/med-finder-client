@@ -124,4 +124,4 @@ class DatatableApiPage extends React.Component {
     );
   }
 }
-export default DatatableApiPage;
+export default  DatatableApiPage;

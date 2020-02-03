@@ -64,4 +64,4 @@ const EdgeHeaderPage = props => {
   );
 };
 
-export default EdgeHeaderPage;
+export default  EdgeHeaderPage;

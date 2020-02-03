@@ -9,7 +9,7 @@ Every service file should follow the pattern below:<br>
 
 ```
 import axios from "axios";
-export default {
+export default  {
     example: async () => {
         let res = await axios.get(`/api/example`);
         return res.data || [];
